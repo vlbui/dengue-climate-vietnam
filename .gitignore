@@ -1,0 +1,27 @@
+# Claude / editors
+.claude/
+.vscode/
+**/__pycache__/
+*.pyc
+*.egg-info/
+
+# Data (public sources — not committed)
+**/data/
+**/raw_data/
+**/shared_processed/
+**/data_inputs/
+**/*.csv
+
+# Manuscript, figures, tables (not code)
+**/manuscript/
+**/figures/
+**/tables/
+**/*.docx
+**/*.pdf
+**/*.png
+**/*.svg
+
+# OS / temp
+.DS_Store
+Thumbs.db
+~$*
